@@ -209,7 +209,88 @@ align-items: center;
 {
   height: 500px;
   width: 100%;
+
 }
+
+#n°4 .cardbox3
+{
+  height: 500px;
+  width: 1200px;
+  background-color: yellow;
+
+  position: absolute;
+  right: 0;
+
+  display: flex;
+  flex-direction: row;
+
+  border-radius: 15px;
+
+
+}
+
+#n°4 .blockBlanc
+{
+
+  background-color: white;
+  color: black;
+  height: 550px;
+  width: 450px;
+
+  position: absolute;
+  right: 90px;
+
+  text-align: center;
+  padding: 20px;
+
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+#n°5
+{
+  height: 460px;
+  width: 100%;
+}
+#n°5 img
+{
+  height: 460px;
+  width: 100%;
+
+}
+
+#n°6
+{
+  height: 660px;
+  width: 100%;
+  
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#n°6 table
+{
+
+}
+
+#n°6 table img
+{
+
+  height: 167px;
+  width: 168px;
+
+}
+
+#n°6 h2
+{
+  color: Yellow;
+  font-size: 3em;
+}
+
 footer
 {
   border: 1px solid green;
