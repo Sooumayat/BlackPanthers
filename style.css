@@ -97,6 +97,12 @@ section
     height: 300px;
     width: 500px;
 }
+
+.qui:hover{
+  color: black;
+  font-weight: bold;
+  font-size: 65px;
+}
 .descript{
   font-size: 1em;
   color: black;
@@ -130,8 +136,8 @@ align-items: center;
 {
 
   background-color: yellow;
-  height: 200px;
-  width: 270px;
+  height: 360px;
+  width: 470px;
 
 }
 
@@ -140,6 +146,14 @@ align-items: center;
   height: 20px;
   width: 100px;
 
+}
+
+.titree{
+  width :600px;
+}
+
+.titree:hover{
+  color: yellow;
 }
 
 .espacee
