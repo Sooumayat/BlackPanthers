@@ -23,7 +23,7 @@ body{
   height: 70px;
   width: 100%;
 
-  border: 1px solid black;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -37,7 +37,28 @@ body{
 }
 
 /*Menu slide*/
+.menu{
+  height: 550px;
+  width: 100%;
+  background: yellow;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Anton', sans-serif;
+  text-decoration: none;
+}
+
+.menu , a {
+  text-decoration:none;
+  color: #000;
+}
+
+span{
+  position: fixed;
+  right: 10px;
+}
 /*Titre*/
 h1{
   color: yellow;
@@ -320,6 +341,13 @@ align-items: center;
   font-size: 3em;
 }
 
+#n°6 .text-align{
+  text-align: center;
+}
+
+
+
+
 .description{
   color: black;
   width: 700px;
@@ -430,7 +458,10 @@ align-items: center;
  }*/
 footer
 {
-  border: 1px solid green;
+
+  background: #333;
+  padding: 50px 0 50px;
+  text-align: center;
   height: 100px;
   width: 100%;
 }
